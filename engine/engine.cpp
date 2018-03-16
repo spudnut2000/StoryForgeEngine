@@ -8,7 +8,7 @@ Engine::Engine(){}
 
 Engine::~Engine(){}
 
-bool Engine::InitEngine(const char* title)
+bool Engine::InitEngine(const char* title, int s_width, int s_height)
 {
     //Check if GLFW Initialized
     if(!glfwInit())
@@ -18,7 +18,7 @@ bool Engine::InitEngine(const char* title)
     }
 
     //Create window
-    window = glfwCreateWindow(SCREEN_WIDTH, SCREEN_HEIGHT, title, NULL, NULL);
+    window = glfwCreateWindow(s_width, s_height, title, NULL, NULL);
 
     //Check if window exists
     if (window == NULL)

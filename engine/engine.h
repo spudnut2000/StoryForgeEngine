@@ -14,7 +14,7 @@ class Engine
         Engine();
         ~Engine();
 
-        bool InitEngine();
+        bool InitEngine(const char* title);
 
         void Update();
         void Render();

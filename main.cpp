@@ -8,7 +8,7 @@ int main(void)
 
     Engine engine;
 
-    engine.InitEngine();
+    engine.InitEngine("Storyforge");
 
     while (true)
     {

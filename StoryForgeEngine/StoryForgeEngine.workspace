@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="StoryForgeEngine" Database="" Version="10000">
+  <Project Name="StoryForgeEngine" Path="StoryForgeEngine/StoryForgeEngine.project" Active="No"/>
+  <Project Name="Sandbox" Path="Sandbox/Sandbox.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug">
+      <Environment/>
+      <Project Name="StoryForgeEngine" ConfigName="Debug"/>
+      <Project Name="Sandbox" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release">
+      <Environment/>
+      <Project Name="StoryForgeEngine" ConfigName="Release"/>
+      <Project Name="Sandbox" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

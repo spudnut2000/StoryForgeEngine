@@ -8,6 +8,10 @@ void displayMe(void)
         glVertex3f(0.5, 0.0, 0.0);
         glVertex3f(0.0, 0.5, 0.0);
         glVertex3f(0.0, 0.0, 0.5);
+        glVertex3f(-0.5, 0.0, -0.5);
+        glVertex3f(-0.5, 0.0, 0.0);
+        glVertex3f(0.0, -0.5, 0.0);
+        glVertex3f(0.0, 0.0, -0.5);
     glEnd();
     glFlush();
 }
